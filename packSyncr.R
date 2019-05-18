@@ -7,7 +7,7 @@ filename <- paste(nodename, ".csv", sep = "")
 # write.csv(ip2, filename)
 
 # read in packages from list
-lp <- read.csv("/Users/Georgios/Desktop/packages.csv")
+lp <- read.csv("./packages.csv")
 
 # find packages in list not installed in this machine
 ni <- setdiff(lp$Packages, ip2$Package)
