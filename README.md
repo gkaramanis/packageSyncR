@@ -1,0 +1,1 @@
+Export a list with the R packages installed in the current machine, compare with a list of packages names and install the missing ones from CRAN.
